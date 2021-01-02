@@ -1,0 +1,11 @@
+{
+  "title": "terra-test",
+  "description": "Terraform Intro course",
+  "courses": [
+    {
+      "course_id": "uilayout-terminal",
+      "title": "Scenario with Terminal UI",
+      "description": "Katacoda Scenario Example"
+    }
+  ]
+}
