@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Terraform installation",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Clone Terraform repo",
         "text": "step2.md"
       },
       {
@@ -26,9 +26,10 @@
     }
   },
   "environment": {
-    	"uieditorpath": "/root/example",
-    	"uilayout": "editor-terminal",
-	"showide": true
+      "uieditorpath": "/root/",
+      "showide": true,
+      "idePort": 23000,
+    	"uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:1804"

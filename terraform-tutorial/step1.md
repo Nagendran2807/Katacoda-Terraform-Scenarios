@@ -1,13 +1,19 @@
-A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
+## Terraform Installation
 
-## Task
+`sudo apt-get update -y`{{execute}}
 
-Clone our example repository that contains the set of documentation with the following command:
+`sudo apt-get install wget unzip`{{execute}}
 
-`git clone https://github.com/Nagendran2807/terraform-tutorial.git terraform-session`{{execute}}
+`sudo cd /opt/`{{execute}}
 
-Within the repository, you will see a set of examples of implementing various terraform functionality.
+`sudo wget https://releases.hashicorp.com/terraform/0.14.5/terraform_0.14.5_linux_amd64.zip`{{execute}}
 
-`cd terraform-session`{{execute}}
+`sudo unzip terraform_0.14.5_linux_amd64.zip`{{execute}}
 
-`ls -lrt`{{execute}}
+`sudo mv terraform /usr/local/bin/`{{execute}}
+
+`sudo which terraform`{{execute}}
+
+`terraform -v`{{execute}}
+
+
