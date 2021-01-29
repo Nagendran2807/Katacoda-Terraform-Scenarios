@@ -1,21 +1,58 @@
 {
   "title": "terraform-session",
   "description": "terraform playground",
+  "author": "Nagendran M",
   "difficulty": "Intermediate",
   "time": "2 hours",
   "details": {
     "steps": [
       {
         "title": "Terraform installation",
-        "text": "step1.md"
+        "text": "1_terra_install.md"
       },
       {
         "title": "Clone Terraform repo",
-        "text": "step2.md"
+        "text": "2_clone.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Terraform Providers",
+        "text": "3_providers.md"
+      },
+      {
+        "title": "Terraform Variables",
+        "text": "4_variables.md"
+      },
+      {
+        "title": "Terraform Dependency",
+        "text": "5_dependency.md"
+      },
+      {
+        "title": "Terraform Life cycle rules",
+        "text": "6_lifecycle_rule.md"
+      },
+      {
+        "title": "Terraform Data resource",
+        "text": "7_data_import.md"
+      },
+      {
+        "title": "Terraform count & For loop",
+        "text": "8_count_for_each.md"
+      },
+      {
+        "title": "Terraform Version Constraint",
+        "text": "9_version_constraint.md"
+      },
+      {
+        "title": "Terraform Provisioners",
+        "text": "10_provisioner.md"
+      },
+      {
+        "title": "Terraform Workspace",
+        "text": "11_workspace.md"
+      },
+      {
+        "title": "Terraform Modules",
+        "text": "12_modules.md"
       }
     ],
     "intro": {
