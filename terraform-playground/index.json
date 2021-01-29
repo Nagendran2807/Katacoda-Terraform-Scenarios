@@ -17,6 +17,42 @@
       {
         "title": "Terraform Providers",
         "text": "3_providers.md"
+      },
+      {
+        "title": "Terraform Variables",
+        "text": "4_variables.md"
+      },
+      {
+        "title": "Terraform Dependency",
+        "text": "5_dependency.md"
+      },
+      {
+        "title": "Terraform Life cycle rules",
+        "text": "6_lifecycle_rule.md"
+      },
+      {
+        "title": "Terraform Data resource",
+        "text": "7_data_import.md"
+      },
+      {
+        "title": "Terraform count & For loop",
+        "text": "8_count_for_each.md"
+      },
+      {
+        "title": "Terraform Version Constraint",
+        "text": "9_version_constraint.md"
+      },
+      {
+        "title": "Terraform Provisioners",
+        "text": "10_provisioner.md"
+      },
+      {
+        "title": "Terraform Workspace",
+        "text": "11_workspace.md"
+      },
+      {
+        "title": "Terraform Modules",
+        "text": "12_modules.md"
       }
     ],
     "intro": {
@@ -27,10 +63,10 @@
     }
   },
   "environment": {
-      "uieditorpath": "/root/",
-      "showide": true,
-      "idePort": 23000,
-    	"uilayout": "terminal"
+    "uieditorpath": "/root/",
+    "showide": true,
+    "idePort": 23000,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:1804"
