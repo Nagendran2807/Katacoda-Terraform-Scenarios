@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Terraform installation",
-        "text": "step1.md"
+        "text": "1_terra_install.md"
       },
       {
         "title": "Terraform Modules",
