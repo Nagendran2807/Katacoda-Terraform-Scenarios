@@ -21,4 +21,4 @@
 
 `terraform plan`{{execute}}
 
-`terraform apply`{{execute}}
+`terraform apply -var "filename="test-runtime-var.txt"`{{execute}}
