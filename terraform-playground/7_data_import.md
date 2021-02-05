@@ -22,7 +22,7 @@ Use below commands, when deal with real AWS resources
 
 `aws cloudformation list-stacks`{{execute}}
 
-`aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[?Key==`Name`].Value[0],State.Name,PrivateIpAddress,PublicIpAddress]' --output text`{{execute}}
+`aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[?Key==`Name`].Value[],State.Name,PrivateIpAddress,PublicIpAddress]' --output text`{{execute}}
 
 
 
