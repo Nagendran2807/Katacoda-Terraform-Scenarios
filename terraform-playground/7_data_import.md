@@ -45,3 +45,8 @@ terraform import aws_instance.webnew i-944e00ef886a0c927
 `terraform plan`{{execute}}
 
 `terraform apply`{{execute}}
+
+
+
+
+
