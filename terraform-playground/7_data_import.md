@@ -13,6 +13,7 @@
 
 
 #### Terraform Import AWS #########
+`export AWS_PROFILE=aws-test`{{execute}}
 
 Create ec2 instance using cf template
 
@@ -26,12 +27,15 @@ Use below commands, when deal with real AWS resources
 
 
 
+
 #### Terraform Import Localstack #########
+
+`export AWS_PROFILE=localstack`{{execute}}
 
 Use below commands, when deal with Localstack
 `aws ec2 run-instances --image-id=ami-07dd19a7900a1f049 --count 1 --instance-type t2.micro  --endpoint-url=http://localhost:4566`{{execute}}
 
-`aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[?Key==`Name`].Value[0],State.Name,PrivateIpAddress,PublicIpAddress]' --output text --endpoint-url=http://localhost:4566`{{execute}}
+`aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,Tags[?Key==`Name`].Value[],State.Name,PrivateIpAddress,PublicIpAddress]' --output text --endpoint-url=http://localhost:4566`{{execute}}
 
 `cd /root/terraform-session/data-import-localstack`{{execute}}
 

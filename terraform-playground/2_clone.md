@@ -38,13 +38,13 @@ Verify the localstack up and running
 
 aws configure set aws_access_key_id test --profile local (or)
 
-`aws configure set profile.local.aws_access_key_id test`{{execute}}
+`aws configure set profile.localstack.aws_access_key_id test`{{execute}}
 
-`aws configure set profile.local.aws_secret_access_key test`{{execute}}
+`aws configure set profile.localstack.aws_secret_access_key test`{{execute}}
 
-`aws configure set profile.local.region us-east-1`{{execute}}
+`aws configure set profile.localstack.region us-east-1`{{execute}}
 
-`aws configure list-profiles`{{execute}}
+`aws configure list`{{execute}}
 
 `export AWS_PROFILE=localstack`{{execute}}
 
